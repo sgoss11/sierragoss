@@ -2,11 +2,15 @@ body{
   margin: 0px;  
   font-family: 'Libre Baskerville', serif;
 }
-div{
+.top-container{
   text-align: center;
   margin: 0;
   padding: 10px;
   background-color: #271F26;
   color: #FFF4F6;
   font-weight: 700;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
 }
