@@ -17,6 +17,9 @@ text-align: center;
 .navbar{
 display: flex;
 justify-content: space-between;
+background-color: #271F26;
+color: #FFF4F6;
+font-weight: 700;
 }
 .aboutme{  
   background-color: #FEDBE3;
