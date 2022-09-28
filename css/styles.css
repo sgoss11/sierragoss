@@ -26,7 +26,10 @@ font-weight: 700;
 }
 .vision{  
   background-color: #FFF4F6;
-  margin: 0;
+  & h2 {
+    text-align: center;
+    margin: 0;
+  }
 }
 .web-design{  
   background-color: #A08988;
