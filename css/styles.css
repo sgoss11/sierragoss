@@ -1,10 +1,6 @@
 body{
   margin: 0px;  
   font-family: 'Libre Baskerville', serif;
-  
-}
-body h2{
-text-align: center;
 }
 .top{
   text-align: center;
@@ -23,16 +19,33 @@ font-weight: 700;
 }
 .aboutme{  
   background-color: #FEDBE3;
+  & h2 {
+    text-align: center;
+    margin: 0;
+  }
 }
 .vision{  
   background-color: #FFF4F6;
+  margin: 0;
 }
 .web-design{  
   background-color: #A08988;
+  & h2 {
+    text-align: center;
+    margin: 0;
+  }
 }
 .social-media{  
   background-color: #44363E;
+  & h2 {
+    text-align: center;
+    margin: 0;
+  }
 }
 .contact-me{  
   background-color: #271F26;
+  & h2 {
+    text-align: center;
+    margin: 0;
+  }
 }
