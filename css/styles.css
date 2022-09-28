@@ -26,10 +26,10 @@ font-weight: 700;
 }
 .vision{  
   background-color: #FFF4F6;
-  & h2 {
-    text-align: center;
-    margin: 0;
-  }
+  margin: 0;
+}
+div.vision h2{
+  text-align: center;
   margin: 0;
 }
 .web-design{  
