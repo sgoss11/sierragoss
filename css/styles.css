@@ -3,6 +3,7 @@ body{
   font-family: 'Libre Baskerville', serif;
 }
 .top{
+  height: 100vh;
   text-align: center;
   margin: 0;
   padding: 10px;
@@ -11,20 +12,18 @@ body{
   font-weight: 700;
 }
 .navbar{
+margin: 20px;
 display: flex;
 justify-content: space-between;
 background-color: #271F26;
 color: #FFF4F6;
 font-weight: 700;
 }
-.aboutme{  
+.about me{  
   background-color: #FEDBE3;
   height: 100vh;
-  & h2 {
-    text-align: center;
-    margin: 0;
-  }
 }
+
 .vision{  
   background-color: #FFF4F6;
   margin: 0;
@@ -33,29 +32,18 @@ font-weight: 700;
 div.vision h2{
   text-align: center;
   margin: 0;
+  padding: 100px 0 100px 0;
 }
 .web-design{  
   background-color: #A08988;
   height: 100vh;
-  & h2 {
-    text-align: center;
-    margin: 0;
-  }
   margin: 0;
 }
 .social-media{  
   background-color: #44363E;
   height: 100vh;
-  & h2 {
-    text-align: center;
-    margin: 0;
-  }
 }
 .contact-me{  
   background-color: #271F26;
   height: 100vh;
-  & h2 {
-    text-align: center;
-    margin: 0;
-  }
 }
