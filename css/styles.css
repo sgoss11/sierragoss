@@ -3,6 +3,9 @@ body{
   font-family: 'Libre Baskerville', serif;
   
 }
+body h2{
+text-align: center;
+}
 .intro{
   text-align: center;
   margin: 0;
@@ -20,6 +23,7 @@ justify-content: space-between;
 }
 .vision{  
   background-color: #FFF4F6;
+  margin: 50 100 50 100;
 }
 .web-design{  
   background-color: #A08988;
