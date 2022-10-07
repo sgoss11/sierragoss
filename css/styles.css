@@ -1,49 +1,115 @@
 body{
   margin: 0px;  
-  font-family: 'Libre Baskerville', serif;
-}
-.top{
-  height: 100vh;
   text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.25rem;
+}
+
+h2{
   margin: 0;
-  padding: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 2rem;
+  line-height: 2;
+}
+p{
+  margin: 0;
+  line-height: 2;
+}
+
+.top{
   background-color: #271F26;
   color: #FFF4F6;
   font-weight: 700;
+  padding: 100px 200px 200px 200px;
 }
+
 .navbar{
-margin: 20px;
-display: flex;
-justify-content: space-between;
-background-color: #271F26;
-color: #FFF4F6;
-font-weight: 700;
+  background-color: #271F26;
+  display: flex;
+  justify-content: space-between;
 }
+
+.navbar a{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 20px;
+  background-color: #271F26;
+  color: #FFF4F6;
+}
+.navbar a:hover{
+  background-color: #4E4349;
+}
+
 .about-me{  
   background-color: #FEDBE3;
-  height: 100vh;
+  color: #362D33;
+  padding: 200px; 
 }
 
 .vision{  
   background-color: #FFF4F6;
-  margin: 0;
-  height: 100vh;
+  color: #4E4349;
+  padding: 200px;
 }
-div.vision h2{
-  text-align: center;
-  margin: 0;
-  padding: 100px 0 100px 0;
-}
+
 .web-design{  
   background-color: #A08988;
-  height: 100vh;
-  margin: 0;
+  padding: 200px;
+  color: #270716;
+  text-align: left;
 }
+
+.web-design table{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.web-design th:nth-child(1), td:nth-child(1){
+  width: 20%;
+  text-align: left;
+}
+
+.web-design th:nth-child(2), th:nth-child(3){
+  width: 40%
+}
+
+.web-design th{
+  font-size: 1.25rem;
+}
+
+.web-design th, td{
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+}
+
 .social-media{  
   background-color: #44363E;
-  height: 100vh;
+  color: #E9D4D9;
+  padding: 200px;
 }
+
 .contact-me{  
   background-color: #271F26;
-  height: 100vh;
+  text-align: left;
+  color: #FFF4F6;
+  padding: 200px 400px;
+}
+
+.contact-me form{
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+.contact-me input{
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-me label{
+  padding-top: 20px; 
+  display: inline-block;
 }
