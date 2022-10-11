@@ -1,4 +1,79 @@
 body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h2, h3, h4, h5, h6{
+  font-weight: 700;
+}
+p{
+  color: #8f8f8f;
+}
+
+.section-heading{
+  font-size: 2rem; 
+}
+
+.container-fluid{
+  padding: 15% 15%;
+}
+
+/* Navbar Section */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.logo{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  color: #FFF4F6;
+}
+
+/* Top Section */
+#top{
+  background-color: #271F26;
+  color: #FFF4F6;
+}
+
+#top h1{
+  padding: 2rem 0 2rem;
+}
+
+/* Web Design */
+#web-design{
+  background-color: #D2BABF;
+}
+/* Graphic Design */
+#graphic-design{
+  background-color: #FFDBE3;
+}
+/* Contact Me */
+#contact-me{
+  
+}
+/* footer */ 
+#footer{
+  background-color: #271F26;
+  color: #FFF4F6;
+}
+
+
+
+/* 
+body{
   margin: 0px;  
   text-align: center;
   font-family: 'Libre Baskerville', serif;
@@ -113,3 +188,4 @@ p{
   padding-top: 20px; 
   display: inline-block;
 }
+*/
