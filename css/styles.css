@@ -27,7 +27,9 @@ p{
 .navbar{
   padding: 0 0 4.5rem;
 }
-
+.container-fluid.top{
+  padding-top: 5%;
+}
 .logo{
   font-size: 2.5rem;
   font-weight: 900;
@@ -56,20 +58,30 @@ p{
 #web-design{
   background-color: #D2BABF;
 }
+
+#web-design table{
+  text-align: left;
+}
+
 /* Graphic Design */
 #graphic-design{
   background-color: #FFDBE3;
 }
 /* Contact Me */
-#contact-me{
-  
+#contact-me form{
+  text-align: left;
+  padding: 0 10% 0 10%;
+}
+
+form label{
+  padding-bottom: 15px;
+  font-size: 1.2rem;
 }
 /* footer */ 
 #footer{
   background-color: #271F26;
   color: #FFF4F6;
 }
-
 
 
 /* 
